@@ -46,18 +46,18 @@ fmt.Printf("You are the %s person in line.", orden.FormatInt64(n))
 
 ## Import
 
-To import package **opt** use `import` code like the follownig:
+To import package **ord** use `import` code like the follownig:
 ```
 import "sourcecode.social/reiver/go-ord"
 ```
 
 ## Installation
 
-To install package **opt** do the following:
+To install package **ord** do the following:
 ```
 GOPROXY=direct https://sourcecode.social/reiver/go-ord
 ```
 
 ## Author
 
-Package **opt** was written by [Charles Iliya Krempeaux](http://changelog.ca)
+Package **ord** was written by [Charles Iliya Krempeaux](http://changelog.ca)
