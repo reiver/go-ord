@@ -1,3 +1,4 @@
+
 # go-ord
 
 Package **ord** provides tools for turning numbers into their human-friendly ordinal representation.
@@ -24,14 +25,14 @@ For example:
 
 ## Documention
 
-Online documentation, which includes examples, can be found at: http://godoc.org/github.com/reiver/go-ord
+Online documentation, which includes examples, can be found at: http://godoc.org/sourcecode.social/reiver/go-ord
 
-[![GoDoc](https://godoc.org/github.com/reiver/go-ord?status.svg)](https://godoc.org/github.com/reiver/go-ord)
+[![GoDoc](https://godoc.org/sourcecode.social/reiver/go-ord?status.svg)](https://godoc.org/sourcecode.social/reiver/go-ord)
 
 ## Example:
 
 ```go
-import "github.com/reiver/go-ord/en"
+import "sourcecode.social/reiver/go-ord/en"
 
 // ...
 
@@ -42,3 +43,21 @@ fmt.Printf("You are the %s person in line.", orden.FormatInt64(n))
 // Output:
 // You are the 123rd person in line.
 ```
+
+## Import
+
+To import package **opt** use `import` code like the follownig:
+```
+import "sourcecode.social/reiver/go-ord"
+```
+
+## Installation
+
+To install package **opt** do the following:
+```
+GOPROXY=direct https://sourcecode.social/reiver/go-ord
+```
+
+## Author
+
+Package **opt** was written by [Charles Iliya Krempeaux](http://changelog.ca)
