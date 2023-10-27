@@ -55,7 +55,7 @@ import "sourcecode.social/reiver/go-ord"
 
 To install package **ord** do the following:
 ```
-GOPROXY=direct https://sourcecode.social/reiver/go-ord
+GOPROXY=direct go get https://sourcecode.social/reiver/go-ord
 ```
 
 ## Author
